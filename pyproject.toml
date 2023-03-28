@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "telebot"
+version = "0.1.0"
+description = ""
+authors = ["Antesser <ahriman.kun@gmail.com>"]
+readme = "README.md"
+packages = [{include = "telebot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.32.0"
+autopep8 = "^2.0.2"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

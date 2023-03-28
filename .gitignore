@@ -1,0 +1,6 @@
+.bot_run.txt
+.env
+**/__pycache__
+/dist
+.vscode
+.flake8
